@@ -1,0 +1,415 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+}
+
+.box {
+  width: 100%;
+  min-height: 85vh;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  background: #fff;
+}
+
+.returnlogo {
+  padding: 6px;
+  background-color: #80b918;
+  color: #eee;
+  border-radius: 20px;
+}
+
+/*textbox*/
+.txtbox {
+  width: 100%;
+  background-color: #eee;
+}
+
+.txtarea {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid transparent;
+}
+
+/*  floating total sales */
+.floatingCard {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  color: #fff;
+  background-color: #10451d;
+  border-radius: 7px;
+}
+
+.containerRow {
+  max-height: calc(100vh - 200px);
+  overflow: auto;
+}
+
+.table-container {
+  max-height: calc(100vh - 200px);
+  overflow: auto;
+  position: relative;
+}
+
+.tblCart th:nth-child(1),
+.tblCart td:nth-child(1) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblCart th:nth-child(2),
+.tblCart td:nth-child(2) {
+  width: 200px;
+  text-align: center;
+}
+
+.tblCart th:nth-child(3),
+.tblCart td:nth-child(3) {
+  width: 200px;
+  text-align: center;
+}
+
+.tblCart th:nth-child(4),
+.tblCart td:nth-child(4) {
+  width: 200px;
+  text-align: center;
+}
+
+.tblCart th:nth-child(5),
+.tblCart td:nth-child(5) {
+  width: 200px;
+  text-align: center;
+}
+
+.tblCart th:nth-child(6),
+.tblCart td:nth-child(6) {
+  width: 200px;
+  text-align: center;
+}
+
+.tblCart tbody,
+.tblCart td {
+  white-space: nowrap;
+}
+
+.tblCart th,
+.tblCart td {
+  padding: 0.5rem;
+  vertical-align: middle;
+}
+
+.tblCart thead,
+.tblCart th {
+  background-color: white;
+  font-weight: 700;
+  color: #9da3a8;
+}
+
+.tblCart th:last-child,
+.tblCart td:last-child {
+  position: sticky;
+  right: 0;
+  z-index: 1;
+}
+
+/*Table for Confirming Products Before Checkout*/
+.tblConfirm th:nth-child(1),
+.tblConfirm td:nth-child(1) {
+  width: 100px;
+  text-align: left;
+}
+
+.tblConfirm th:nth-child(2),
+.tblConfirm td:nth-child(2) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblConfirm th:nth-child(3),
+.tblConfirm td:nth-child(3) {
+  width: 100px;
+  text-align: center;
+}
+
+.tblConfirm th:nth-child(4),
+.tblConfirm td:nth-child(4) {
+  width: 100px;
+  text-align: center;
+}
+
+.tblConfirm th:nth-child(5),
+.tblConfirm td:nth-child(5) {
+  width: 100px;
+  text-align: center;
+}
+
+.tblCart tbody,
+.tblCart td {
+  white-space: nowrap;
+}
+
+.tblCart th,
+.tblCart td {
+  padding: 0.1rem;
+}
+
+.tblCart thead,
+.tblCart th {
+  background-color: white;
+}
+
+/* MODAL */
+
+.custom-modal {
+  max-width: 60%;
+  max-height: 80%;
+}
+
+/* BUTTONS */
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.custom-button {
+  position: relative;
+  width: 90% !important; /* Adjust the width as per your preference */
+  height: 50px !important; /* Set a fixed height for the buttons */
+  border: none;
+}
+
+.custom-button h6 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btnSettle {
+  background-color: #007f5f;
+}
+
+.btnProduct {
+  background-color: #2b9348;
+}
+
+.btnReturn {
+  background-color: #55a630;
+}
+
+.btnDaily {
+  background-color: #80b918;
+}
+
+.btnCancel {
+  color: black;
+  background-color: #aacc00;
+}
+
+.icon-row {
+  display: grid;
+  grid-template-columns: auto min-content; /* Create two columns, auto and min-content */
+  grid-gap: 7px; /* Set the desired gap between the text and the icon */
+  align-items: center; /* Center the elements vertically */
+  /* Add other custom styling as needed */
+}
+
+.no-wrap-text {
+  font-weight: 700;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.custom-icon {
+  font-size: 30px;
+}
+
+/*TEXTFIELD 4 modal*/
+.custom-text-field {
+  font-size: 20px;
+  border: none;
+  background-color: #eee;
+}
+
+.custom-text-field:focus {
+  outline: none;
+  background-color: #eee;
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+/* TABLE MODAL */
+
+.table-container-modal {
+  max-height: calc(100vh - 200px);
+  overflow-x: auto;
+  position: relative;
+}
+
+.tblProduct th:nth-child(1),
+.tblProduct td:nth-child(1) {
+  width: 300px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(2),
+.tblProduct td:nth-child(2) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(3),
+.tblProduct td:nth-child(3) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(4),
+.tblProduct td:nth-child(4) {
+  width: 200px;
+  text-align: center;
+}
+
+.tblProduct th:nth-child(5),
+.tblProduct td:nth-child(5) {
+  width: 200px;
+  text-align: center;
+}
+
+.tblProduct tbody, 
+.tblProduct td {
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.tblProduct th,
+.tblProduct td {
+  padding: 0.5rem;
+}
+
+.tblProduct thead , 
+.tblProduct th {
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+
+.search-input {
+  width: 100%;
+  border: none;
+  background-color: #eee;
+}
+
+.search-input:focus {
+  outline: none;
+  background-color: #eee;
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+/*CUSTOMIZATION FOR MODAL OF RETURN ITEM*/
+
+.tblProductReturn th:nth-child(1),
+.tblProductReturn td:nth-child(1) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProductReturn th:nth-child(2),
+.tblProductReturn td:nth-child(2) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProductReturn th:nth-child(3),
+.tblProductReturn td:nth-child(3) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProductReturn th:nth-child(4),
+.tblProductReturn td:nth-child(4) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProductReturn th:nth-child(5),
+.tblProductReturn td:nth-child(5) {
+  width: 100px;
+  text-align: center;
+}
+
+.tblProductReturn tbody td {
+  white-space: nowrap;
+}
+
+.tblProductReturn th,
+td {
+  padding: 0.5rem;
+}
+
+.tblProductReturn thead th {
+  background-color: white;
+}
+
+.totalCost {
+  padding: 4px;
+  color: white;
+  border-radius: 10px;
+  background-color: #10451d;
+}
+
+/*CCS MODAL CHECKOUT*/
+
+.modalCheckOut {
+  max-width: 50%;
+  max-height: 50%;
+}
+.tblCheckOut td {
+  vertical-align: middle;
+  padding: 0.1rem;
+}
+
+.tblCheckOut td:nth-child(1) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblCheckOut td:nth-child(2) {
+  width: 200px;
+  text-align: center;
+}
+
+.tblCheckOut td:nth-child(3) {
+  width: 200px;
+  text-align: right;
+}
+
+.tblCheckOut td:nth-child(4) {
+  width: 200px;
+  text-align: right;
+}
+
+@media (max-height: 768px) {
+  .box {
+    min-height: 80vh;
+  }
+}
+
+/* Apply specific styles for even smaller screen heights */
+@media (max-height: 400px) {
+  .box {
+    min-height: 60vh;
+  }
+}

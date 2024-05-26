@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*LEGENDS*/
+
+.lblLegend {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #6c757d;
+}
+
+.lblNlegend {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+.LUpdate {
+  border-radius: 7px;
+  color: #eee;
+  background-color: #0b5ed7;
+  padding: 10px;
+}
+
+.LDelete {
+  border-radius: 7px;
+  color: #eee;
+  background-color: #bb2d3b;
+  padding: 10px;
+}
+
+.container {
+  max-height: calc(100vh - 110px);
+  overflow-y: auto;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.table-container {
+  max-height: calc(100vh - 300px);
+  overflow: auto;
+  position: relative;
+}
+
+.tblAccount tbody td {
+  white-space: nowrap;
+}
+
+.tblAccount th,
+.tblAccount td {
+  padding: 0.75rem;
+  vertical-align: middle;
+}
+
+.tblAccount th:nth-child(1),
+.tblAccount td:nth-child(1) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblAccount th:nth-child(2),
+.tblAccount td:nth-child(2) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblAccount th:nth-child(3),
+.tblAccount td:nth-child(3) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblAccount thead th {
+  background-color: white;
+}
+
+.tblAccount th:last-child,
+.tblAccount td:last-child {
+  position: sticky;
+  right: 0;
+  z-index: 1;
+}
+
+.tblAccount th,
+.tblAccount td {
+  padding: 0.1rem;
+}
+
+.tblRole tbody td {
+  white-space: normal;
+}
+
+.tblRole th,
+.tblRole td {
+  padding: 0.75rem;
+  vertical-align: middle;
+}
+
+.tblRole th:nth-child(1),
+.tblRole td:nth-child(1) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblRole th:nth-child(2),
+.tblRole td:nth-child(2) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblRole th:nth-child(3),
+.tblRole td:nth-child(3) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblRole thead th {
+  background-color: white;
+}
+
+.tblRole th:last-child,
+.tblRole td:last-child {
+  position: sticky;
+  right: 0;
+  z-index: 1;
+}
+
+.tblRole th,
+.tblRole td {
+  padding: 0.1rem;
+}
+
+.txtbox {
+  width: 100%;
+  background-color: #eee;
+}
+
+.modalArchive {
+  max-width: 40%;
+}

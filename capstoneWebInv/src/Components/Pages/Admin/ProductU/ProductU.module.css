@@ -1,0 +1,216 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-height: calc(100vh - 120px);
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.search-input {
+  background-color: #e9ecef;
+  width: 200px;
+}
+
+.table-container {
+  width: 100%;
+  max-height: calc(100vh - 300px);
+  position: relative;
+  overflow-x: auto;
+}
+
+.tblProduct thead,
+.tblProduct th {
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+.tblProduct tbody,
+.tblProduct td {
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.tblProduct th:nth-child(1),
+.tblProduct td:nth-child(1) {
+  width: 100px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(2),
+.tblProduct td:nth-child(2) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(3),
+.tblProduct td:nth-child(3) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(4),
+.tblProduct td:nth-child(4) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(5),
+.tblProduct td:nth-child(5) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(6),
+.tblProduct td:nth-child(6) {
+  width: 200px;
+  text-align: left;
+}
+
+/* PAGINATION */
+
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  gap: 3px;
+}
+
+.pagination .page-num {
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 400;
+  color: black;
+  background-color: #ddd;
+}
+
+.pagination .page-num:hover {
+  color: white;
+  background-color: #10451d;
+}
+
+.pagination .active {
+  color: white;
+  background-color: #10451d;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.4;
+  /* Add any other styles for disabled labels */
+}
+
+.column1 {
+  width: 25%;
+}
+
+.column2 {
+  width: 75%;
+}
+
+.cardPurchaseForm {
+  width: 100%;
+  max-height: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  background: #fff;
+}
+
+.supplierName {
+  padding: 15px;
+  width: 80%;
+}
+
+.search-input-modal {
+  width: 100%;
+  background-color: #eee;
+}
+
+.table-container-modal {
+  max-height: calc(100vh - 280px);
+  position: relative;
+  overflow-y: auto;
+}
+
+.dateCustom {
+  color: #adb5bd;
+}
+
+.totalCost {
+  color: #fff;
+  background: #10451d;
+  border-radius: 10px;
+}
+
+/*TABLE MODAL*/
+.tblProduct tbody,
+.tblProduct th,
+.tblProduct td {
+  white-space: nowrap;
+}
+
+.tblProduct th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.tblProduct th:nth-child(1),
+.tblProduct td:nth-child(1) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(2),
+.tblProduct td:nth-child(2) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(3),
+.tblProduct td:nth-child(3) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(4),
+.tblProduct td:nth-child(4) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(5),
+.tblProduct td:nth-child(5) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(6),
+.tblProduct td:nth-child(6) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(7),
+.tblProduct td:nth-child(7) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(8),
+.tblProduct td:nth-child(8) {
+  width: 100px;
+  text-align: center;
+}
+
+.divBot {
+  margin-top: auto;
+}

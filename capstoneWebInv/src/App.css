@@ -1,0 +1,87 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #9fb4a4;
+  border-radius: 6px;
+}
+
+/*
+START HERE
+CUSTOMIZE CALENDAR
+*/
+
+/*Remove the two buttons ("Cancel", "Ok")*/
+.css-knqc4i-MuiDialogActions-root,
+.css-hlj6pa-MuiDialogActions-root {
+  display: none !important;
+}
+
+/*Remove the "Selected Date" sa taas ng date*/
+.css-1hbyad5-MuiTypography-root {
+  display: none !important;
+}
+
+.css-15jcv2p-MuiPickersToolbar-content {
+  justify-content: center !important;
+}
+
+/*margin sa baba*/
+.css-16b5y55-MuiPickersLayout-contentWrapper {
+  margin-bottom: -50px;
+}
+
+/*Background color ng calendar*/
+.css-4pax7l-MuiPickersLayout-root {
+  background-color: #d8f3dc;
+}
+
+/*Font ng calendar date sa taas*/
+.css-3jvy96-MuiTypography-root-MuiDatePickerToolbar-title {
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/*Color ng Selected Date Number*/
+.css-jgls56-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+  background-color: #40916c;
+}
+
+.css-1u23akw-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+  background-color: #40916c;
+}
+
+.css-1u23akw-MuiButtonBase-root-MuiPickersDay-root.Mui-selected:hover {
+  will-change: background-color;
+  background-color: #40916c;
+}
+
+.css-jgls56-MuiButtonBase-root-MuiPickersDay-root.Mui-selected:hover {
+  will-change: background-color;
+  background-color: #40916c;
+}
+
+/*Color ng selected year*/
+.css-1beqopj-MuiPickersYear-yearButton.Mui-selected {
+  background-color: #40916c;
+}
+
+/*
+ENDS HERE
+CUSTOMIZE CALENDAR
+*/
+
+/*TEXTFIELD USERNAME AND PASSWORD FONT*/
+.css-1lwa3th-MuiFormLabel-root-MuiInputLabel-root,
+.css-xirb9b-MuiFormLabel-root-MuiInputLabel-root {
+  font-family: "Poppins", sans-serif;
+}

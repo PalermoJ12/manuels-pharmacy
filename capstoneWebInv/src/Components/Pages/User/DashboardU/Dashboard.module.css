@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+}
+
+.transcpic {
+  max-height: 50%;
+  width: 30%;
+}
+
+.prepared {
+  margin-top: 10%;
+  font-weight: 600;
+}
+
+.custom-modal {
+  max-width: 60%;
+}
+
+/* CARD OF TIME AND DATE (THE BIGGEST CARD) */
+.cardTandD {
+  background-color: #dee5e0;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+}
+
+.column1 {
+  width: 30%;
+}
+
+.column2 {
+  width: 70%;
+}
+
+.lblDate {
+  background-color: #10451d;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.txtDate {
+  color: #fff;
+}
+
+/* CARD OF TODAY SALES */
+.cardSales {
+  margin-right: 1%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.iconSale {
+  background-color: #98d998;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.lblCards {
+  font-weight: 500;
+  color: #6c757d;
+}
+
+/* CARD OF EXPIRED */
+.cardExpired {
+  margin-right: 1%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.iconExpire {
+  background-color: #e6cf00;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+/* CARD OF RETURN */
+.cardReturn {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.iconReturn {
+  background-color: #ffccd5;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+/* CARD OF SALES LOG */
+.cardSalesLog {
+  margin-right: 1%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.cardExpiry {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.table-container-1{
+  max-height: 400px;
+  overflow: auto;
+}
+
+.table-container-2{
+  max-height: 400px;
+  overflow: auto;
+}
+
+/*SALES LOG W/ TABLE*/
+
+.table-container {
+  width: 100%;
+  max-height: 100vh;
+  overflow-y: auto;
+  position: relative;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.caption {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.tblSales thead,
+.tblSales th {
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+.tblSales th,
+.tblSales td {
+  background: #f8f9fa;
+}
+
+.tblSales tbody,
+.tblSales td {
+  white-space: nowrap;
+}
+
+.tblSales th:nth-child(1),
+.tblSales td:nth-child(1) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblSales th:nth-child(2),
+.tblSales td:nth-child(2) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblSales th:nth-child(3),
+.tblSales td:nth-child(3) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblSales th:nth-child(4),
+.tblSales td:nth-child(4) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblSales th:nth-child(5),
+.tblSales td:nth-child(5) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblSales th:nth-child(6),
+.tblSales td:nth-child(6) {
+  width: 200px;
+  text-align: left;
+}

@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-height: calc(100vh - 110px);
+  overflow: auto;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.divRequest {
+  height: 100%;
+}
+
+.cardRequest {
+  margin-right: 1px;
+  width: 100%;
+  min-height: 84vh;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+.header {
+  margin-top: 1%;
+}
+
+.reqTitle {
+  font-size: 50px;
+}
+
+/*table*/
+
+.table-container {
+  max-height: calc(100vh - 200px);
+  overflow: auto;
+  position: relative;
+}
+
+.tblButtonCustom {
+  font-size: 17px;
+}
+
+.tblRequest th:nth-child(1),
+.tblRequest td:nth-child(1) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblRequest th:nth-child(2),
+.tblRequest td:nth-child(2) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblRequest th:nth-child(3),
+.tblRequest td:nth-child(3) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblRequest th:nth-child(4),
+.tblRequest td:nth-child(4) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblRequest th:nth-child(5),
+.tblRequest td:nth-child(5) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblRequest th:nth-child(6),
+.tblRequest td:nth-child(6) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblRequest tbody,
+.tblRequest td {
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.lblAD {
+  padding: 7px;
+  border-radius: 6px;
+}
+
+.lblmmddyyyy {
+  font-size: 12px;
+  color: #adb5bd;
+}
+
+/*table approved history*/
+
+.tblApproved th:nth-child(1),
+.tblApproved td:nth-child(1) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblApproved th:nth-child(2),
+.tblApproved td:nth-child(2) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblApproved th:nth-child(3),
+.tblApproved td:nth-child(3) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblApproved th:nth-child(4),
+.tblApproved td:nth-child(4) {
+  width: 100px;
+  text-align: left;
+}
+
+.tblApproved tbody,
+.tblApproved th,
+.tblApproved td {
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.custom-modal {
+  max-width: 60%;
+  max-height: 80%;
+}
+
+/*CUSTOMIZATION FOR SEE ACTIVITY UPDATE MODAL*/
+
+.custom-modal-see {
+  max-width: 40%;
+  max-height: 80%;
+}
+
+.lblfromto {
+  color: #000;
+}
+
+.lblfield {
+  color: #adb5bd;
+}
+
+/*CUSTOMIZATION FOR SEE ACTIVITY PURCHASE MODAL*/
+.custom-modal-see {
+  max-width: 70%;
+  max-height: 80%;
+}
+
+.tblreqpurchase th:nth-child(1),
+.tblreqpurchase td:nth-child(1) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblreqpurchase th:nth-child(2),
+.tblreqpurchase td:nth-child(2) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblreqpurchase th:nth-child(3),
+.tblreqpurchase td:nth-child(3) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblreqpurchase th:nth-child(4),
+.tblreqpurchase td:nth-child(4) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblreqpurchase th:nth-child(5),
+.tblreqpurchase td:nth-child(5) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblreqpurchase th:nth-child(6),
+.tblreqpurchase td:nth-child(6) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblreqpurchase th:nth-child(7),
+.tblreqpurchase td:nth-child(7) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblreqpurchase tbody,
+.tblreqpurchase th,
+.tblreqpurchase td {
+  white-space: nowrap;
+  vertical-align: middle;
+}

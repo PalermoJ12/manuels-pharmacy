@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-height: calc(100vh - 110px);
+  overflow-y: hidden;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.logo {
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+}

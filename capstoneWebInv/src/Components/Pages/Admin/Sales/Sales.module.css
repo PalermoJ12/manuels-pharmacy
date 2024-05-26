@@ -1,0 +1,233 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.lblmmddyyyy {
+  font-size: 12px;
+  color: #adb5bd;
+}
+
+.prepared {
+  margin-top: 10%;
+  font-weight: 600;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+}
+
+.titlePage {
+  font-weight: 700;
+}
+
+.txtbox {
+  width: 100%;
+  background-color: #eee;
+}
+
+.container {
+  max-height: calc(100vh - 160px);
+  overflow-y: auto;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.column1 {
+  margin-left: 1%;
+}
+
+.dates {
+  width: 30vh;
+  margin-right: 20px;
+}
+
+.customdp {
+  border-color: #2dc653;
+  color: #000;
+}
+
+.custom-modal {
+  max-width: 60%;
+  max-height: 80%;
+}
+
+/* Sales Report */
+
+.transcpic {
+  width: 18rem;
+  vertical-align: middle;
+}
+
+.table-container {
+  max-height: calc(100vh - 430px);
+  overflow-y: auto;
+  overflow-x: auto;
+  position: relative;
+  background-color: #fff;
+}
+
+.tblSale th:nth-child(1),
+.tblSale td:nth-child(1) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblSale th:nth-child(2),
+.tblSale td:nth-child(2) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblSale th:nth-child(3),
+.tblSale td:nth-child(3) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblSale th:nth-child(4),
+.tblSale td:nth-child(4) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblSale tbody,
+.tblSale td {
+  white-space: nowrap;
+}
+
+.tblSale th,
+.tblSale td {
+  padding: 0.5rem;
+}
+
+.tblSale thead,
+.tblSale th {
+  background-color: white;
+}
+
+.excelIcon {
+  margin-right: 5px;
+  font-size: 17px;
+}
+
+/*Inventory Report*/
+.tblInventory th:nth-child(1),
+.tblInventory td:nth-child(1) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblInventory th:nth-child(2),
+.tblInventory td:nth-child(2) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblInventory th:nth-child(3),
+.tblInventory td:nth-child(3) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblInventory th:nth-child(4),
+.tblInventory td:nth-child(4) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblInventory th:nth-child(5),
+.tblInventory td:nth-child(5) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblInventory th:nth-child(6),
+.tblInventory td:nth-child(6) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblInventory th:nth-child(7),
+.tblInventory td:nth-child(7) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblInventory tbody,
+.tblInventory td {
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.tblInventory th,
+.tblInventory td {
+  padding: 0.5rem;
+}
+
+.tblInventory thead,
+.tblInventory th {
+  color: #40916c;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+/*Product Report*/
+.tblProduct th:nth-child(1),
+.tblProduct td:nth-child(1) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(2),
+.tblProduct td:nth-child(2) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(3),
+.tblProduct td:nth-child(3) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(4),
+.tblProduct td:nth-child(4) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(5),
+.tblProduct td:nth-child(5) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(6),
+.tblProduct td:nth-child(6) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct tbody,
+.tblProduct td {
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.tblProduct th,
+.tblProduct td {
+  padding: 0.5rem;
+}
+
+.tblProduct thead,
+.tblProduct th {
+  color: #e85d04;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}

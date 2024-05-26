@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .txt {
+    font-size: 15px;
+    color: #3f5745;
+  }
+  
+  .lblmmddyyyy {
+    font-size: 12px;
+    color: #adb5bd;
+  }
+  
+  .container {
+    max-height: calc(100vh - 110px);
+    overflow-y: auto;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  /*LEGENDS*/
+  
+  .lblLegend {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #6c757d;
+  }
+  
+  .lblNlegend {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+  }
+  
+  .LView {
+    border-radius: 7px;
+    color: #eee;
+    background-color: #000;
+    padding: 10px;
+  }
+  
+  .LUpdate {
+    border-radius: 7px;
+    color: #eee;
+    background-color: #0b5ed7;
+    padding: 10px;
+  }
+  
+  .LDelete {
+    border-radius: 7px;
+    color: #eee;
+    background-color: #bb2d3b;
+    padding: 10px;
+  }
+  
+  .table-container {
+    max-height: calc(100vh - 200px);
+    position: relative;
+  }
+  
+  .tblContainer tbody,
+  .tblContainer td,
+  .tblContainer th {
+    white-space: nowrap;
+  }
+  
+  .tblContainer th,
+  .tblContainer td {
+    padding: 0.1rem;
+    vertical-align: middle;
+  }
+  
+  .tblContainer th:nth-child(1),
+  .tblContainer td:nth-child(1) {
+    width: 300px;
+    text-align: left;
+  }
+  
+  .tblContainer th:nth-child(2),
+  .tblContainer td:nth-child(2) {
+    width: 300px;
+    text-align: left;
+  }
+  
+  .tblContainer th:nth-child(3),
+  .tblContainer td:nth-child(3) {
+    width: 300px;
+    text-align: left;
+  }
+  
+  .tblContainer thead th {
+    background-color: white;
+  }
+  
+  
+  .pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    gap: 3px;
+  }
+  
+  .pagination .page-num {
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 400;
+    color: black;
+    background-color: #ddd;
+  }
+  
+  .pagination .page-num:hover {
+    color: white;
+    background-color: #10451d;
+  }
+  
+  .pagination .active {
+    color: white;
+    background-color: #10451d;
+  }
+  
+  .disabled {
+    pointer-events: none;
+    opacity: 0.4;
+    /* Add any other styles for disabled labels */
+  }
+  
+  .txtbox {
+    width: 100%;
+    background-color: #eee;
+  }
+  
+  .search-input-modal {
+    width: 100%;
+    border: none;
+    background-color: #eee;
+  }
+  
+  /* TABLE MODAL */
+  
+  .table-container-modal {
+    max-height: calc(100vh - 500px);
+    overflow-x: auto;
+    position: relative;
+  }
+  
+  .tblProduct th:nth-child(1),
+  .tblProduct td:nth-child(1) {
+    width: 100px;
+    text-align: left;
+  }
+  
+  .tblProduct th:nth-child(2),
+  .tblProduct td:nth-child(2) {
+    width: 200px;
+    text-align: left;
+  }
+  
+  .tblProduct th:nth-child(3),
+  .tblProduct td:nth-child(3) {
+    width: 200px;
+    text-align: left;
+  }
+  
+  .tblProduct tbody,
+  .tblProduct td,
+  .tblProduct th {
+    white-space: nowrap;
+  }
+  
+  .tblProduct th,
+  .tblProduct td {
+    padding: 0.75rem;
+    vertical-align: middle;
+  }
+  
+  .tblProduct thead th {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  /* CUSTOM MODAL */
+  .custom-modal {
+    max-width: 50%;
+    max-height: 80%;
+  }
+  
+  /*table archive products*/
+  
+  .table-archive {
+    max-height: calc(100vh - 700px);
+    position: relative;
+    overflow: auto;
+  }
+  
+  .tblArchive tbody,
+  .tblArchive td {
+    white-space: nowrap;
+  }
+  
+  .tblArchive th,
+  .tblArchive td {
+    padding: 0.1rem;
+    vertical-align: middle;
+  }
+  
+  .tblArchive th:nth-child(1),
+  .tblArchive td:nth-child(1) {
+    width: 200px;
+    text-align: left;
+  }
+  
+  .tblArchive th:nth-child(2),
+  .tblArchive td:nth-child(2) {
+    width: 200px;
+    text-align: left;
+  }
+  
+  .tblArchive th:nth-child(3),
+  .tblArchive td:nth-child(3) {
+    width: 200px;
+    text-align: left;
+  }
+  
+  .tblArchive th:last-child,
+  .tblArchive td:last-child {
+    position: sticky;
+    right: 0;
+    z-index: 1;
+  }
+  

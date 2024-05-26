@@ -1,0 +1,46 @@
+Liam Lim
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.lblmmddyyyy {
+  font-size: 10px;
+  color: #adb5bd;
+}
+
+.container {
+  max-height: calc(100vh - 110px);
+  overflow: auto;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.notifIcon {
+  padding: 12px;
+  background-color: #10451d;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.lblNotif {
+  font-weight: 600;
+}
+
+.table-container {
+  max-height: calc(100vh - 250px);
+  position: relative;
+  overflow: auto;
+}
+
+.notifAuthor {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.notifActivity {
+  font-size: 15px;
+  font-weight: 400;
+}

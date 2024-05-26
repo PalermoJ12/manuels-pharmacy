@@ -1,0 +1,327 @@
+/* Common styles for both large and small screens */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* CHART */
+
+.charts {
+  gap: 5px;
+  width: 100%;
+}
+
+.chartMonth {
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px 30px 30px;
+}
+
+.chartDaily {
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px 30px 30px;
+}
+
+.container {
+  max-height: calc(100vh - 110px);
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.cardProduct {
+  margin-right: 1px;
+  width: 100%;
+  min-height: 85vh;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+.modalArchive {
+  max-width: 50%;
+  max-height: 80%;
+}
+
+.btnMore {
+  background-color: #f0f1f3;
+  border-radius: 100px;
+}
+
+.btnMore:hover {
+  background-color: #dee0e5;
+}
+
+.divEtcButtons {
+  position: absolute;
+  top: 0px;
+  margin-left: -1rem;
+  width: 17%;
+  min-height: 100vh;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(6px);
+  z-index: 9998;
+  transition: width 300ms;
+}
+
+.titlePage {
+  font-weight: 700;
+}
+
+/*LEGENDS*/
+
+.lblLegend {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #6c757d;
+}
+
+.lblNlegend {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+.LView {
+  border-radius: 7px;
+  color: #eee;
+  background-color: #000;
+  padding: 10px;
+}
+
+.LUpdate {
+  border-radius: 7px;
+  color: #eee;
+  background-color: #0b5ed7;
+  padding: 10px;
+}
+
+.LDelete {
+  border-radius: 7px;
+  color: #eee;
+  background-color: #bb2d3b;
+  padding: 10px;
+}
+
+.table-container-prod {
+  max-height: calc(100vh - 200px);
+  overflow: auto;
+  position: relative;
+}
+
+.table-container {
+  max-height: calc(100vh - 350px);
+  overflow: auto;
+  position: relative;
+}
+
+.tblProduct tbody,
+.tblProdct th,
+.tblProduct td {
+  white-space: nowrap;
+}
+
+.tblProduct th,
+.tblProduct td {
+  padding: 0.1rem;
+  vertical-align: middle;
+}
+
+.tblProduct th:nth-child(1),
+.tblProduct td:nth-child(1) {
+  width: 50px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(2),
+.tblProduct td:nth-child(2) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(3),
+.tblProduct td:nth-child(3) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(4),
+.tblProduct td:nth-child(4) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(5),
+.tblProduct td:nth-child(5) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(6),
+.tblProduct td:nth-child(6) {
+  width: 100px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(7),
+.tblProduct td:nth-child(7) {
+  width: 100px;
+  text-align: left;
+}
+
+.tblProduct th:nth-child(8),
+.tblProduct td:nth-child(8) {
+  width: 100px;
+  text-align: left;
+}
+
+.tblProduct th:last-child,
+.tblProduct td:last-child {
+  position: sticky;
+  right: 0;
+  z-index: 1;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.4;
+  /* Add any other styles for disabled labels */
+}
+
+.search-input {
+  width: 200px;
+}
+
+/*textbox*/
+.txtbox {
+  width: 100%;
+  background-color: #eee;
+}
+
+.txtlbl {
+  color: #8d8d8d;
+}
+
+.txtStock {
+  font-size: 12px;
+  color: #adb5bd;
+}
+
+/*table archive products*/
+
+.table-archive {
+  max-height: calc(100vh - 700px);
+  position: relative;
+  overflow: auto;
+}
+
+.tblArchive tbody,
+.tblArchive td {
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.tblArchive th,
+.tblArchive td {
+  padding: 0.1rem;
+  vertical-align: middle;
+}
+
+.tblArchive th:nth-child(1),
+.tblArchive td:nth-child(1) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblArchive th:nth-child(2),
+.tblArchive td:nth-child(2) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblArchive th:nth-child(3),
+.tblArchive td:nth-child(3) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblArchive th:nth-child(4),
+.tblArchive td:nth-child(4) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblArchive th:nth-child(5),
+.tblArchive td:nth-child(5) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblArchive th:nth-child(6),
+.tblArchive td:nth-child(6) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblArchive th:nth-child(7),
+.tblArchive td:nth-child(7) {
+  width: 200px;
+  text-align: left;
+}
+
+.tblArchive th:last-child,
+.tblArchive td:last-child {
+  position: sticky;
+  right: 0;
+  z-index: 1;
+}
+
+/*Product Unit CSS*/
+
+.unitContainer {
+  max-height: calc(100vh - 110px);
+  overflow-y: auto;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.tblProdUnit tbody,
+.tblProdUnit td {
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.tblProdUnit th:nth-child(1),
+.tblProdUnit td:nth-child(1) {
+  width: 500px;
+  text-align: left;
+}
+
+.tblProdUnit th:nth-child(2),
+.tblProdUnit td:nth-child(2) {
+  width: 100px;
+  text-align: left;
+}
+
+.tblProdUnit th,
+.tblProdUnit td {
+  padding: 0.1rem;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .charts {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search-input {
+    width: 100%; /* Make the search input span the full width on smaller screens */
+  }
+}
